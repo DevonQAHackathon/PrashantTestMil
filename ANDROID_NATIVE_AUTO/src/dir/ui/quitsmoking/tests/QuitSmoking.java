@@ -1,4 +1,4 @@
-package dir.ui.filemanager.tests;
+package dir.ui.quitsmoking.tests;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -15,7 +15,7 @@ import io.appium.java_client.remote.MobilePlatform;
 import unitee.annotations.TestClass;
 import unitee.annotations.TestMethod;
 
-@TestClass
+//@TestClass
 public class QuitSmoking {
 	
 	static AndroidDriver driver;
