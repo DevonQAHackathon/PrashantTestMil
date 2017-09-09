@@ -1,0 +1,72 @@
+[DEBUG]	2017-09-09|18:34:03	(ArjunaInternal.java:222)	Setting up Test Engine
+[DEBUG]	2017-09-09|18:34:03	(ArjunaInternal.java:11293)	Running Test Engine
+[DEBUG]	2017-09-09|18:34:03	(ArjunaTestEngine.java:80)	Create Test Runner - Start
+[DEBUG]	2017-09-09|18:34:03	(ArjunaTestEngine.java:81)	Create Test Reporter - Start
+[DEBUG]	2017-09-09|18:34:03	(ArjunaTestEngine.java:109)	Create Test Reporter - Finish
+[DEBUG]	2017-09-09|18:34:03	(ArjunaTestEngine.java:110)	Create Test Runner - Finish
+[DEBUG]	2017-09-09|18:34:03	(ArjunaInternal.java:12279)	Loading test definitions...
+[DEBUG]	2017-09-09|18:34:03	(ArjunaInternal.java:12319)	Loading session...
+[DEBUG]	2017-09-09|18:34:03	(PickerConfigForCLI.java:24)	Configuring picker: {}
+[DEBUG]	2017-09-09|18:34:03	(PickerConfigForCLI.java:24)	Configuring picker: {PACKAGE_CONSIDER_PATTERNS=.*?}
+[DEBUG]	2017-09-09|18:34:03	(BaseSession.java:43)	msession: Scheduling nodes
+[DEBUG]	2017-09-09|18:34:03	(BaseSession.java:45)	Session Node: node1
+[DEBUG]	2017-09-09|18:34:03	(BaseGroup.java:47)	magroup: Loading containers
+[DEBUG]	2017-09-09|18:34:03	(JavaTestClassGroupScheduler.java:32)	[dir.ui.filemanager.tests.QuitSmoking]
+[DEBUG]	2017-09-09|18:34:03	(JavaTestClassGroupScheduler.java:33)	magroup:qh: Picking containers
+[DEBUG]	2017-09-09|18:34:03	(JavaTestClassGroupScheduler.java:36)	magroup: Looping over pickers...
+[DEBUG]	2017-09-09|18:34:03	(AbstractPickerConfig.java:344)	Group: magroup, Evaluating: dir.ui.filemanager.tests.QuitSmoking
+[DEBUG]	2017-09-09|18:34:03	(AbstractPickerConfig.java:346)	Check package name: dir.ui.filemanager.tests
+[DEBUG]	2017-09-09|18:34:03	(AbstractPickerConfig.java:297)	Target Object Name String: dir.ui.filemanager.tests
+[DEBUG]	2017-09-09|18:34:03	(AbstractPickerConfig.java:298)	Ignore Pattern: null
+[DEBUG]	2017-09-09|18:34:03	(AbstractPickerConfig.java:299)	Consider Pattern: [.*?]
+[DEBUG]	2017-09-09|18:34:03	(AbstractPickerConfig.java:313)	Check consider pattern match.
+[DEBUG]	2017-09-09|18:34:03	(AbstractPickerConfig.java:315)	.*?
+[DEBUG]	2017-09-09|18:34:03	(AbstractPickerConfig.java:351)	Check class name: QuitSmoking
+[DEBUG]	2017-09-09|18:34:03	(AbstractPickerConfig.java:356)	Group: magroup, Including: dir.ui.filemanager.tests.QuitSmoking
+[DEBUG]	2017-09-09|18:34:03	(AbstractPickerConfig.java:360)	[addSomeHabits, createEntry]
+[DEBUG]	2017-09-09|18:34:03	(AbstractPickerConfig.java:363)	Group: magroup, Evaluating: addSomeHabits
+[DEBUG]	2017-09-09|18:34:03	(AbstractPickerConfig.java:366)	Group: magroup, Including: addSomeHabits
+[DEBUG]	2017-09-09|18:34:03	(AbstractPickerConfig.java:363)	Group: magroup, Evaluating: createEntry
+[DEBUG]	2017-09-09|18:34:03	(AbstractPickerConfig.java:366)	Group: magroup, Including: createEntry
+[DEBUG]	2017-09-09|18:34:03	(AbstractPickerConfig.java:13286)	Mark Class Def picked: dir.ui.filemanager.tests.QuitSmoking
+[DEBUG]	2017-09-09|18:34:03	(BaseSession.java:34)	msession: Loading nodes
+[DEBUG]	2017-09-09|18:34:03	(BaseSession.java:36)	Session Node: node1
+[DEBUG]	2017-09-09|18:34:03	(ArjunaInternal.java:12332)	Running Test Engine
+[DEBUG]	2017-09-09|18:34:03	(ArjunaTestEngine.java:209)	------------ RUN: START -----------------
+[DEBUG]	2017-09-09|18:34:03	(TestSessionRunner.java:61)	Session: msession, Session Node: node1:: Creating Thread
+[DEBUG]	2017-09-09|18:34:03	(TestSessionNodeRunner.java:23)	Session Node: node1:: Run begin
+[DEBUG]	2017-09-09|18:34:03	(TestSessionNodeRunner.java:31)	Session Node: node1:: Thread Count: 1
+[DEBUG]	2017-09-09|18:34:03	(TestSessionSubNodeRunner.java:41)	Session Node node1 started.
+[DEBUG]	2017-09-09|18:34:03	(TestSessionSubNodeSlotsRunner.java:40)	Session Sub Node node1-1-magroup started.
+[DEBUG]	2017-09-09|18:35:19	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2017-09-09|18:35:19	(Console.java:28)	| Test Package                            | dir.ui.filemanager.tests
+[DEBUG]	2017-09-09|18:35:19	(Console.java:28)	| Test Class                              | QuitSmoking
+[DEBUG]	2017-09-09|18:35:19	(Console.java:28)	| Test Method                             | addSomeHabits
+[DEBUG]	2017-09-09|18:35:19	(Console.java:28)	| Test Result                             | PASS
+[DEBUG]	2017-09-09|18:35:19	(Console.java:28)	| Result Code                             | ALL_STEPS_PASS
+[DEBUG]	2017-09-09|18:35:19	(Console.java:28)	| Result Description                      | Passed
+[DEBUG]	2017-09-09|18:35:19	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2017-09-09|18:35:55	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2017-09-09|18:35:55	(Console.java:28)	| Test Package                            | dir.ui.filemanager.tests
+[DEBUG]	2017-09-09|18:35:55	(Console.java:28)	| Test Class                              | QuitSmoking
+[DEBUG]	2017-09-09|18:35:55	(Console.java:28)	| Test Method                             | createEntry
+[DEBUG]	2017-09-09|18:35:55	(Console.java:28)	| Test Result                             | PASS
+[DEBUG]	2017-09-09|18:35:55	(Console.java:28)	| Result Code                             | ALL_STEPS_PASS
+[DEBUG]	2017-09-09|18:35:55	(Console.java:28)	| Result Description                      | Passed
+[DEBUG]	2017-09-09|18:35:55	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2017-09-09|18:35:55	(TestSessionSubNodeSlotsRunner.java:45)	Session Sub Node node1-1-magroup finished.
+[DEBUG]	2017-09-09|18:35:55	(TestSessionSubNodeRunner.java:60)	Session Node node1 finished.
+[DEBUG]	2017-09-09|18:35:55	(TestSessionNodeRunner.java:60)	Session Node: node1:: Run end
+[DEBUG]	2017-09-09|18:35:55	(TestSessionRunner.java:54)	Session msession finished.
+[DEBUG]	2017-09-09|18:35:55	(DefaultReporter.java:131)	Tear Down - Begin
+[DEBUG]	2017-09-09|18:35:55	(DefaultReporter.java:132)	Tear Down - All Notifiers
+[DEBUG]	2017-09-09|18:35:55	(DefaultReporter.java:153)	Tear Down - Finish
+[DEBUG]	2017-09-09|18:35:55	(ArjunaTestEngine.java:223)	------------ RUN: FINISH -----------------
+[DEBUG]	2017-09-09|18:35:55	(ArjunaInternal.java:13306)	Generating reports
+[DEBUG]	2017-09-09|18:35:56	(ExcelReportGenerator.java:293)	Tear Down - Begin
+[DEBUG]	2017-09-09|18:35:56	(ExcelReportGenerator.java:297)	Tear Down - Finish
+[DEBUG]	2017-09-09|18:35:56	(ExcelReportGenerator.java:293)	Tear Down - Begin
+[DEBUG]	2017-09-09|18:35:56	(ExcelReportGenerator.java:297)	Tear Down - Finish
+[DEBUG]	2017-09-09|18:35:56	(ExcelReportGenerator.java:161)	Tear Down - Finish
+[DEBUG]	2017-09-09|18:35:56	(ArjunaInternal.java:243)	Tearing down Test Engine
+[DEBUG]	2017-09-09|18:35:56	(Console.java:28)	All Done. Exiting.
