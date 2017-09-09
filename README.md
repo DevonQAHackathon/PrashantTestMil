@@ -102,3 +102,11 @@ EXAMPLES
 
     arjuna.bat -pn a.b -cn Test1 -dl ERROR
             Runs all tests in Test1 class and display ERROR & FATAL level log messages.
+	    
+	    
+Test Project  details: 
+--------
+
+dir.ui.filemanager.tests is the package contains tests.
+
+QuitSmoking.java is the Test class.	    
